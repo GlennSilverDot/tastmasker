@@ -43,6 +43,8 @@ export const GlobalProvider = ({ children }) => {
         );
       });
 
+      // I don't know how but this works apparently
+
       setTasks(sorted);
 
       setIsLoading(false);
